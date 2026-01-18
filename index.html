@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>StudentHub - Your Study Companion</title>
+    <meta name="description" content="StudentHub - Notes, PYQs, Applications &amp; Assignment Tracking for Students">
+    <meta name="author" content="StudentHub" />
+
+    
+    
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@StudentHub" />
+    <meta name="twitter:image" content="https://lovable.dev/opengraph-image-p98pqg.png" />
+    
+    <script>
+      // Initialize theme from localStorage before page load to prevent flash
+      (function() {
+        const theme = localStorage.getItem('theme');
+        if (theme === 'dark' || (!theme && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+          document.documentElement.classList.add('dark');
+        }
+      })();
+    </script>
+    <meta property="og:title" content="StudentHub - Your Study Companion">
+  <meta name="twitter:title" content="StudentHub - Your Study Companion">
+  <meta property="og:description" content="StudentHub - Notes, PYQs, Applications &amp; Assignment Tracking for Students">
+  <meta name="twitter:description" content="StudentHub - Notes, PYQs, Applications &amp; Assignment Tracking for Students">
+  <link rel="icon" type="image/png" href="https://storage.googleapis.com/gpt-engineer-file-uploads/Rd14o1sjjGQCl8Ie3MTawtvHAuQ2/uploads/1768645183014-ChatGPT Image Jan 4, 2026, 12_46_28 PM.png">
+</head>
+
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
